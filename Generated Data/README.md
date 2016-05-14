@@ -1,0 +1,5 @@
+## Understanding the data
+
+The file output.csv contains the results of the python iamge analyis script. This contains the heights, widths, area etc of each of the pieces anaylsised as discussed in the method section of the paper.
+
+The file 'S6 data.xlsx' contains the values from the initial output file, supplemented by information extracted from the experimental videos, in additiona to including other experimental context. Of key note is the transformation of the height and width columns from output.csv to 'S6 data.xlsx'. The image analsis script somewhat arbitarily decided which dimension heigh and width were. In the final results stored in 'S6 data.xlsx', an 'IF' function was applied in Excel, ensuring the the longest dimension would always be considered to be the length and the other the heigh.
